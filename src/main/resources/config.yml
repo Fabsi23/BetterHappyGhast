@@ -1,0 +1,33 @@
+# Please do not delete any entries of this Config.
+# Please read the information above the entries before modifying them
+Config:
+
+  Prefix:
+    # This prefix is shown in front of the chosen plugin messages. At the end of the prefix you should reset the color codes using &r.
+    # The prefix can be added to every message using %PREFIX%.
+    plugin-prefix: '&c[BHG]&r'
+
+
+  Messages:
+    # This message gets send to a player who has reloaded the configuration file(s)
+    reloaded-config: '%PREFIX% &aThe Config has been reloaded.'
+
+
+  Settings:
+    # The speed of a Happy Ghast while idle (0 passengers). Default speed is 0.05
+    idle-happy-ghast-speed: 0.05
+
+    # The speed of a Happy Ghast while it has 1 passenger. Default speed is 0.05. Maximum: 1.0
+    1-passenger-happy-ghast-speed: 0.05
+    # The speed of a Happy Ghast while it has 2 passengers. Default speed is 0.05. Maximum: 1.0
+    2-passenger-happy-ghast-speed: 0.05
+    # The speed of a Happy Ghast while it has 3 passengers. Default speed is 0.05. Maximum: 1.0
+    3-passenger-happy-ghast-speed: 0.05
+    # The speed of a Happy Ghast while it has 4 passengers. Default speed is 0.05. Maximum: 1.0
+    4-passenger-happy-ghast-speed: 0.05
+
+    # When this is set to true, a player can place blocks on top of the Happy Ghast while crouching
+    build-on-happy-ghast-enabled: true
+
+  # Permission list:
+  # betterhappyghast.reload: Permission to reload the config
